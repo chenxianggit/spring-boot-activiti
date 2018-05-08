@@ -1,0 +1,936 @@
+2018-01-11 16:14:37,800 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 9920 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 16:14:37,809 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 16:14:37,861 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 16:14:37 CST 2018]; root of context hierarchy
+2018-01-11 16:14:38,136 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 16:14:38,732 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 16:14:39,273 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$906c4c5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 16:14:39,913 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 16:14:39,933 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 16:14:39,934 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 16:14:40,058 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 16:14:40,058 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 2197 ms
+2018-01-11 16:14:40,237 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 16:14:40,242 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 16:14:40,243 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 16:14:40,243 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 16:14:40,243 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 16:14:40,244 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 16:14:41,682 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 16:14:41,748 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 16:14:42,404 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 16:14:42,534 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:14:42,714 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:14:42,722 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:14:42,723 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:14:43,145 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 16:14:37 CST 2018]; root of context hierarchy
+2018-01-11 16:14:43,219 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 16:14:43,220 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 16:14:43,220 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 16:14:43,221 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 16:14:43,221 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 16:14:43,221 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 16:14:43,222 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 16:14:43,222 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 16:14:43,222 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 16:14:43,226 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 16:14:43,226 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 16:14:43,227 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 16:14:43,227 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 16:14:43,227 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 16:14:43,228 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 16:14:43,228 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 16:14:43,228 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 16:14:43,229 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 16:14:43,230 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 16:14:43,230 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 16:14:43,231 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 16:14:43,231 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 16:14:43,232 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 16:14:43,234 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 16:14:43,234 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 16:14:43,270 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:14:43,270 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:14:43,312 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:14:43,756 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 16:14:43,777 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 16:14:43,789 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 16:14:43,810 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 16:14:43,832 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 16:14:43,837 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 6.452 seconds (JVM running for 6.981)
+2018-01-11 16:14:52,340 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 16:14:52,341 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 16:14:52,366 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-01-11 16:14:52,757 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/industryContentList]-[{"uid":"298","industryId":"3","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [337ms]
+2018-01-11 16:15:57,747 INFO [http-nio-9090-exec-3] o.s.b.f.x.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:317] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-01-11 16:15:57,777 INFO [http-nio-9090-exec-3] o.s.j.s.SQLErrorCodesFactory [SQLErrorCodesFactory.java:127] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2018-01-11 16:15:57,794 ERROR [http-nio-9090-exec-3] c.m.c.BaseController [BaseController.java:36] 系统异常
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and f.status=1
+		and f.out_type=1
+		and t.rights!=2
+		and f.create_time  >=  DAT' at line 25
+### The error may exist in com/m2m/mapper/ExtContentMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select f.id,f.topic_id as   topicId,   f.uid,   f.fragment,   f.type,   f.content_type as contentType,   f.top_id as topId,   f.bottom_id as bottomId,   f.create_time as createTime,   f.at_uid as atUid,   f.source,   f.extra,   f.score,   f.status,   f.update_time as updateTime,   f.out_type as outType   ,IF(f.type=0 and   f.content_type=1,IF(LOCATE('image_daycard',f.extra)!=0,IF(LOCATE('-',f.fragment_image)!=0,CONCAT(f.fragment_image,'-nrwl_rqcl'),CONCAT(f.fragment_image,'-nrwl_rq_ios')   ),f.fragment_image),f.fragment_image)   as fragmentImage   from   topic_fragment f,topic t   where f.topic_id=t.id and f.topic_id in       and f.status=1   and f.out_type=1   and t.rights!=2   and f.create_time  >=  DATE_ADD(t.out_time, interval -? minute)   and ((f.content_type=1 and f.type=0   and f.fragment_image!='') or   (f.content_type!=1 or f.type!=0))   order by   f.topic_id,f.id desc
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and f.status=1
+		and f.out_type=1
+		and t.rights!=2
+		and f.create_time  >=  DAT' at line 25
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and f.status=1
+		and f.out_type=1
+		and t.rights!=2
+		and f.create_time  >=  DAT' at line 25
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy59.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy112.getOutFragments(Unknown Source)
+	at com.m2m.service.ContentService.industryContentList(ContentService.java:2627)
+	at com.m2m.controller.HomeController.industryContentList(HomeController.java:133)
+	at com.m2m.controller.HomeController$$FastClassBySpringCGLIB$$e248c1a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.m2m.controller.HomeController$$EnhancerBySpringCGLIB$$5ddc4f61.industryContentList(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and f.status=1
+		and f.out_type=1
+		and t.rights!=2
+		and f.create_time  >=  DAT' at line 25
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy126.execute(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy127.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:63)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 76 common frames omitted
+2018-01-11 16:15:57,797 INFO [http-nio-9090-exec-3] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/industryContentList]-[{"uid":"298","industryId":"4","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [109ms]
+2018-01-11 16:16:42,529 ERROR [http-nio-9090-exec-4] c.m.c.BaseController [BaseController.java:36] 系统异常
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and f.status=1
+		and f.out_type=1
+		and t.rights!=2
+		and f.create_time  >=  DAT' at line 25
+### The error may exist in com/m2m/mapper/ExtContentMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select f.id,f.topic_id as   topicId,   f.uid,   f.fragment,   f.type,   f.content_type as contentType,   f.top_id as topId,   f.bottom_id as bottomId,   f.create_time as createTime,   f.at_uid as atUid,   f.source,   f.extra,   f.score,   f.status,   f.update_time as updateTime,   f.out_type as outType   ,IF(f.type=0 and   f.content_type=1,IF(LOCATE('image_daycard',f.extra)!=0,IF(LOCATE('-',f.fragment_image)!=0,CONCAT(f.fragment_image,'-nrwl_rqcl'),CONCAT(f.fragment_image,'-nrwl_rq_ios')   ),f.fragment_image),f.fragment_image)   as fragmentImage   from   topic_fragment f,topic t   where f.topic_id=t.id and f.topic_id in       and f.status=1   and f.out_type=1   and t.rights!=2   and f.create_time  >=  DATE_ADD(t.out_time, interval -? minute)   and ((f.content_type=1 and f.type=0   and f.fragment_image!='') or   (f.content_type!=1 or f.type!=0))   order by   f.topic_id,f.id desc
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and f.status=1
+		and f.out_type=1
+		and t.rights!=2
+		and f.create_time  >=  DAT' at line 25
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and f.status=1
+		and f.out_type=1
+		and t.rights!=2
+		and f.create_time  >=  DAT' at line 25
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy59.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy112.getOutFragments(Unknown Source)
+	at com.m2m.service.ContentService.industryContentList(ContentService.java:2627)
+	at com.m2m.controller.HomeController.industryContentList(HomeController.java:133)
+	at com.m2m.controller.HomeController$$FastClassBySpringCGLIB$$e248c1a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.m2m.controller.HomeController$$EnhancerBySpringCGLIB$$5ddc4f61.industryContentList(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and f.status=1
+		and f.out_type=1
+		and t.rights!=2
+		and f.create_time  >=  DAT' at line 25
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy126.execute(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy127.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:63)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 76 common frames omitted
+2018-01-11 16:16:42,530 INFO [http-nio-9090-exec-4] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/industryContentList]-[{"uid":"298","industryId":"4","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [53ms]
+2018-01-11 16:22:52,365 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 9284 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 16:22:52,371 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 16:22:52,414 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 16:22:52 CST 2018]; root of context hierarchy
+2018-01-11 16:22:52,628 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 16:22:53,219 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 16:22:53,705 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$a4b269cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 16:22:54,287 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 16:22:54,300 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 16:22:54,301 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 16:22:54,406 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 16:22:54,406 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 1993 ms
+2018-01-11 16:22:54,592 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 16:22:54,598 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 16:22:54,599 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 16:22:54,599 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 16:22:54,599 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 16:22:54,599 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 16:22:55,945 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 16:22:56,003 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 16:22:56,569 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 16:22:56,708 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:22:56,879 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:22:56,881 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:22:56,882 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:22:57,290 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 16:22:52 CST 2018]; root of context hierarchy
+2018-01-11 16:22:57,357 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 16:22:57,358 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 16:22:57,358 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 16:22:57,359 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 16:22:57,359 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 16:22:57,360 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 16:22:57,360 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 16:22:57,361 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 16:22:57,361 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 16:22:57,366 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 16:22:57,366 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 16:22:57,367 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 16:22:57,368 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 16:22:57,368 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 16:22:57,369 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 16:22:57,369 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 16:22:57,370 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 16:22:57,370 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 16:22:57,372 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 16:22:57,373 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 16:22:57,373 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 16:22:57,374 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 16:22:57,375 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 16:22:57,377 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 16:22:57,378 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 16:22:57,412 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:22:57,413 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:22:57,455 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:22:57,902 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 16:22:57,922 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 16:22:57,934 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 16:22:57,949 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 16:22:57,972 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 16:22:57,976 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 5.949 seconds (JVM running for 6.357)
+2018-01-11 16:24:20,181 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 16:24:20,181 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 16:24:20,206 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-01-11 16:24:20,443 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/industryContentList]-[{"uid":"298","industryId":"4","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [197ms]
+2018-01-11 16:25:57,319 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 9736 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 16:25:57,324 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 16:25:57,368 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 16:25:57 CST 2018]; root of context hierarchy
+2018-01-11 16:25:57,578 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 16:25:58,180 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 16:25:58,705 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$bdff8e3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 16:25:59,346 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 16:25:59,359 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 16:25:59,361 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 16:25:59,480 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 16:25:59,480 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 2113 ms
+2018-01-11 16:25:59,662 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 16:25:59,667 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 16:25:59,668 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 16:25:59,668 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 16:25:59,668 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 16:25:59,669 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 16:26:01,012 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 16:26:01,074 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 16:26:01,671 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 16:26:01,798 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:26:01,998 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:26:02,000 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:26:02,001 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:26:02,411 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 16:25:57 CST 2018]; root of context hierarchy
+2018-01-11 16:26:02,474 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 16:26:02,475 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 16:26:02,476 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 16:26:02,476 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 16:26:02,476 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 16:26:02,477 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 16:26:02,477 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 16:26:02,478 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 16:26:02,478 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 16:26:02,483 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 16:26:02,483 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 16:26:02,483 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 16:26:02,484 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 16:26:02,484 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 16:26:02,485 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 16:26:02,485 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 16:26:02,485 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 16:26:02,486 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 16:26:02,487 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 16:26:02,487 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 16:26:02,488 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 16:26:02,488 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 16:26:02,489 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 16:26:02,490 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 16:26:02,491 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 16:26:02,525 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:26:02,525 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:26:02,569 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:26:03,060 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 16:26:03,074 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 16:26:03,085 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 16:26:03,098 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 16:26:03,118 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 16:26:03,123 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 6.157 seconds (JVM running for 6.615)
+2018-01-11 16:26:13,845 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 16:26:13,846 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 16:26:13,873 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-01-11 16:26:14,053 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/industryContentList]-[{"uid":"298","industryId":"4","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [127ms]
+2018-01-11 16:26:14,078 ERROR [http-nio-9090-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet] [DirectJDKLog.java:181] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: com.m2m.response.IndustryContentListResponse$IndustryElement.setId(J)V] with root cause
+java.lang.NoSuchMethodError: com.m2m.response.IndustryContentListResponse$IndustryElement.setId(J)V
+	at com.m2m.copier.ContentCopierImpl.asIndustryElement(ContentCopierImpl.java:174)
+	at com.m2m.copier.ContentCopierImpl.asIndustryContentListIndustryElement(ContentCopierImpl.java:190)
+	at com.m2m.service.ContentService.industryContentList(ContentService.java:2588)
+	at com.m2m.controller.HomeController.industryContentList(HomeController.java:133)
+	at com.m2m.controller.HomeController$$FastClassBySpringCGLIB$$e248c1a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.m2m.controller.HomeController$$EnhancerBySpringCGLIB$$2470faed.industryContentList(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-01-11 16:26:14,127 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/error]-[{"uid":"298","industryId":"4","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [44ms]
+2018-01-11 16:27:31,551 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 9656 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 16:27:31,556 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 16:27:31,598 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 16:27:31 CST 2018]; root of context hierarchy
+2018-01-11 16:27:31,796 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 16:27:32,384 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 16:27:32,822 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$511a0af8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 16:27:33,379 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 16:27:33,391 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 16:27:33,392 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 16:27:33,511 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 16:27:33,511 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 1913 ms
+2018-01-11 16:27:33,700 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 16:27:33,704 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 16:27:33,704 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 16:27:33,705 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 16:27:33,705 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 16:27:33,705 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 16:27:35,029 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 16:27:35,085 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 16:27:35,689 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 16:27:35,825 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:27:35,985 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:27:35,987 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:27:35,988 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 16:27:36,398 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 16:27:31 CST 2018]; root of context hierarchy
+2018-01-11 16:27:36,462 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 16:27:36,464 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 16:27:36,464 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 16:27:36,465 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 16:27:36,465 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 16:27:36,465 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 16:27:36,466 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 16:27:36,466 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 16:27:36,466 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 16:27:36,470 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 16:27:36,470 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 16:27:36,471 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 16:27:36,471 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 16:27:36,472 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 16:27:36,473 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 16:27:36,473 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 16:27:36,474 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 16:27:36,474 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 16:27:36,476 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 16:27:36,476 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 16:27:36,477 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 16:27:36,478 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 16:27:36,478 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 16:27:36,481 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 16:27:36,482 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 16:27:36,514 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:27:36,514 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:27:36,555 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 16:27:36,987 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 16:27:37,006 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 16:27:37,017 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 16:27:37,031 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 16:27:37,053 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 16:27:37,059 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 5.839 seconds (JVM running for 6.275)
+2018-01-11 16:27:42,331 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 16:27:42,331 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 16:27:42,356 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-01-11 16:27:42,589 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/industryContentList]-[{"uid":"298","industryId":"4","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [192ms]
+2018-01-11 16:27:57,377 INFO [http-nio-9090-exec-2] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/industryContentList]-[{"uid":"298","industryId":"3","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [151ms]
+2018-01-11 18:51:04,631 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 8424 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 18:51:04,636 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 18:51:04,684 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 18:51:04 CST 2018]; root of context hierarchy
+2018-01-11 18:51:04,896 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 18:51:05,511 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 18:51:06,022 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$829da206] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 18:51:06,602 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 18:51:06,613 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 18:51:06,614 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 18:51:06,738 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 18:51:06,739 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 2055 ms
+2018-01-11 18:51:06,912 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 18:51:06,916 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 18:51:06,916 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 18:51:06,917 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 18:51:06,917 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 18:51:06,917 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 18:51:08,279 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 18:51:08,332 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 18:51:08,962 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 18:51:09,157 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:51:09,352 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:51:09,354 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:51:09,355 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:51:09,764 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 18:51:04 CST 2018]; root of context hierarchy
+2018-01-11 18:51:09,823 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 18:51:09,824 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 18:51:09,825 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 18:51:09,825 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 18:51:09,825 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 18:51:09,826 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 18:51:09,826 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 18:51:09,827 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/userGroup]}" onto public com.m2m.web.Response<com.m2m.response.UserGroupResponse> com.m2m.controller.HomeController.userGroup(com.m2m.request.BaseRequest)
+2018-01-11 18:51:09,827 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 18:51:09,827 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 18:51:09,831 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 18:51:09,831 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 18:51:09,831 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 18:51:09,832 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 18:51:09,832 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 18:51:09,833 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 18:51:09,834 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 18:51:09,834 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 18:51:09,835 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 18:51:09,837 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 18:51:09,838 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 18:51:09,839 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 18:51:09,839 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 18:51:09,840 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 18:51:09,842 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 18:51:09,843 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 18:51:09,876 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:51:09,876 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:51:09,916 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:51:10,341 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 18:51:10,359 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 18:51:10,372 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 18:51:10,387 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 18:51:10,411 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 18:51:10,416 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 6.177 seconds (JVM running for 6.651)
+2018-01-11 18:54:08,827 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 9220 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 18:54:08,832 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 18:54:08,879 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 18:54:08 CST 2018]; root of context hierarchy
+2018-01-11 18:54:09,080 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 18:54:09,682 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 18:54:10,212 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$124215f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 18:54:10,869 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 18:54:10,880 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 18:54:10,881 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 18:54:11,021 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 18:54:11,021 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 2142 ms
+2018-01-11 18:54:11,210 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 18:54:11,214 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 18:54:11,214 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 18:54:11,214 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 18:54:11,214 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 18:54:11,214 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 18:54:12,533 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 18:54:12,586 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 18:54:13,168 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 18:54:13,301 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:54:13,486 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:54:13,488 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:54:13,489 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:54:13,871 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 18:54:08 CST 2018]; root of context hierarchy
+2018-01-11 18:54:13,931 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 18:54:13,933 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 18:54:13,933 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/userGroup]}" onto public com.m2m.web.Response<com.m2m.response.UserGroupResponse> com.m2m.controller.HomeController.userGroup(com.m2m.request.BaseRequest)
+2018-01-11 18:54:13,934 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 18:54:13,935 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 18:54:13,935 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 18:54:13,936 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 18:54:13,936 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 18:54:13,937 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 18:54:13,937 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 18:54:13,942 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 18:54:13,942 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 18:54:13,943 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 18:54:13,944 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 18:54:13,944 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 18:54:13,945 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 18:54:13,945 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 18:54:13,946 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 18:54:13,946 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 18:54:13,948 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 18:54:13,949 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 18:54:13,949 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 18:54:13,950 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 18:54:13,950 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 18:54:13,952 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 18:54:13,952 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 18:54:13,982 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:54:13,982 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:54:14,017 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:54:14,450 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 18:54:14,466 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 18:54:14,479 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 18:54:14,490 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 18:54:14,511 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 18:54:14,517 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 6.046 seconds (JVM running for 6.497)
+2018-01-11 18:54:20,158 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 18:54:20,158 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 18:54:20,187 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-01-11 18:54:20,410 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/userGroup]-[{"uid":"298","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [181ms]
+2018-01-11 18:55:16,035 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 10316 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 18:55:16,040 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 18:55:16,088 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 18:55:16 CST 2018]; root of context hierarchy
+2018-01-11 18:55:16,286 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 18:55:16,910 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 18:55:17,370 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$c92053a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 18:55:17,973 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 18:55:17,988 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 18:55:17,989 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 18:55:18,115 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 18:55:18,116 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 2028 ms
+2018-01-11 18:55:18,280 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 18:55:18,284 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 18:55:18,285 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 18:55:18,285 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 18:55:18,285 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 18:55:18,285 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 18:55:19,581 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 18:55:19,638 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 18:55:20,193 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 18:55:20,352 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:55:20,520 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:55:20,522 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:55:20,523 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 18:55:20,933 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 18:55:16 CST 2018]; root of context hierarchy
+2018-01-11 18:55:20,991 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 18:55:20,992 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 18:55:20,992 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 18:55:20,992 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 18:55:20,993 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 18:55:20,993 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 18:55:20,994 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 18:55:20,994 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/userGroup]}" onto public com.m2m.web.Response<com.m2m.response.UserGroupResponse> com.m2m.controller.HomeController.userGroup(com.m2m.request.BaseRequest)
+2018-01-11 18:55:20,994 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 18:55:20,995 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 18:55:20,998 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 18:55:20,999 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 18:55:20,999 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 18:55:21,000 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 18:55:21,000 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 18:55:21,000 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 18:55:21,001 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 18:55:21,001 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 18:55:21,001 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 18:55:21,003 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 18:55:21,003 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 18:55:21,004 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 18:55:21,004 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 18:55:21,004 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 18:55:21,006 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 18:55:21,006 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 18:55:21,032 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:55:21,033 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:55:21,078 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 18:55:21,528 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 18:55:21,544 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 18:55:21,557 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 18:55:21,569 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 18:55:21,589 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 18:55:21,593 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 5.917 seconds (JVM running for 6.353)
+2018-01-11 18:56:23,303 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 18:56:23,303 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 18:56:23,333 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-01-11 18:56:23,532 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/userGroup]-[{"uid":"298","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [159ms]
+2018-01-11 18:56:26,321 INFO [http-nio-9090-exec-2] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/userGroup]-[{"uid":"298","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [41ms]
+2018-01-11 18:57:18,426 INFO [http-nio-9090-exec-3] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/userGroup]-[{"uid":"298","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [27ms]
+2018-01-11 18:57:22,003 INFO [http-nio-9090-exec-4] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/userGroup]-[{"uid":"298","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [25ms]
+2018-01-11 18:58:07,472 INFO [http-nio-9090-exec-5] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/userGroup]-[{"uid":"298","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [29ms]
+2018-01-11 19:00:37,201 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 10520 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 19:00:37,205 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 19:00:37,254 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 19:00:37 CST 2018]; root of context hierarchy
+2018-01-11 19:00:37,430 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 19:00:38,032 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 19:00:38,517 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$17ad9292] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 19:00:39,113 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 19:00:39,124 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 19:00:39,125 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 19:00:39,271 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 19:00:39,271 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 2017 ms
+2018-01-11 19:00:39,438 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 19:00:39,442 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 19:00:39,443 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 19:00:39,443 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 19:00:39,444 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 19:00:39,444 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 19:00:40,792 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 19:00:40,864 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 19:00:41,520 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 19:00:41,656 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 19:00:41,849 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 19:00:41,851 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 19:00:41,852 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 19:00:42,243 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 19:00:37 CST 2018]; root of context hierarchy
+2018-01-11 19:00:42,304 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 19:00:42,305 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 19:00:42,305 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 19:00:42,306 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 19:00:42,306 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 19:00:42,307 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/userGroup]}" onto public com.m2m.web.Response<com.m2m.response.UserGroupResponse> com.m2m.controller.HomeController.userGroup(com.m2m.request.BaseRequest)
+2018-01-11 19:00:42,307 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 19:00:42,307 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 19:00:42,308 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 19:00:42,308 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 19:00:42,312 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 19:00:42,312 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 19:00:42,312 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 19:00:42,313 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 19:00:42,313 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 19:00:42,313 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 19:00:42,314 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 19:00:42,314 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 19:00:42,315 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 19:00:42,316 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 19:00:42,316 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 19:00:42,317 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 19:00:42,317 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 19:00:42,317 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 19:00:42,319 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 19:00:42,319 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 19:00:42,345 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 19:00:42,345 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 19:00:42,382 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 19:00:42,863 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 19:00:42,879 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 19:00:42,889 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 19:00:42,899 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 19:00:42,920 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 19:00:42,925 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 6.064 seconds (JVM running for 6.504)
+2018-01-11 19:00:50,124 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 19:00:50,125 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 19:00:50,152 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-01-11 19:01:03,279 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/userGroup]-[{"uid":"298","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [13085ms]
+2018-01-11 19:08:10,192 INFO [main] c.m.Application [StartupInfoLogger.java:48] Starting Application on pc339k with PID 1052 (D:\soft\eclipse\git\rest\target\classes started by pc339 in D:\soft\eclipse\git\rest)
+2018-01-11 19:08:10,196 INFO [main] c.m.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-01-11 19:08:10,243 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 19:08:10 CST 2018]; root of context hierarchy
+2018-01-11 19:08:10,452 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.5.Final
+2018-01-11 19:08:11,074 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-11 19:08:11,614 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:325] Bean 'application' of type [com.m2m.Application$$EnhancerBySpringCGLIB$$46046afd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-11 19:08:12,251 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-01-11 19:08:12,263 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-01-11 19:08:12,263 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-01-11 19:08:12,375 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-01-11 19:08:12,375 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 2132 ms
+2018-01-11 19:08:12,562 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 19:08:12,566 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 19:08:12,567 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 19:08:12,567 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 19:08:12,567 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 19:08:12,567 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-01-11 19:08:13,895 INFO [main] c.m.s.UserService [UserService.java:87] 初始化规则
+2018-01-11 19:08:13,952 INFO [main] c.m.s.ContentTagService [ContentTagService.java:47] indexTag started
+2018-01-11 19:08:14,520 INFO [main] c.m.s.ContentTagService [ContentTagService.java:69] indexTag finished.
+2018-01-11 19:08:14,655 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 19:08:14,846 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 19:08:14,847 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 19:08:14,848 INFO [main] c.j.a.c.c.NativeHttpClient [NativeHttpClient.java:54] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2018-01-11 19:08:15,293 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20f5281c: startup date [Thu Jan 11 19:08:10 CST 2018]; root of context hierarchy
+2018-01-11 19:08:15,358 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showList]}" onto public com.m2m.web.Response<com.m2m.response.ShowListResponse> com.m2m.controller.HomeController.showList(com.m2m.request.ShowListRequest)
+2018-01-11 19:08:15,359 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/showListDetail]}" onto public com.m2m.web.Response<com.m2m.response.ShowListDetailResponse> com.m2m.controller.HomeController.showListDetail(com.m2m.request.ShowListDetailRequest)
+2018-01-11 19:08:15,359 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/tagLike]}" onto public java.lang.Object com.m2m.controller.HomeController.tagLike(com.m2m.request.Home4TagLikeRequest)
+2018-01-11 19:08:15,359 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryOpt]}" onto public com.m2m.web.Response<com.m2m.response.BaseResponse> com.m2m.controller.HomeController.industryOpt(com.m2m.request.IndustryOptRequest)
+2018-01-11 19:08:15,360 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/hot]}" onto public java.lang.Object com.m2m.controller.HomeController.hot(com.m2m.request.Home4HotRequest)
+2018-01-11 19:08:15,360 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/attention]}" onto public java.lang.Object com.m2m.controller.HomeController.attention(com.m2m.request.Home4AttentionRequest)
+2018-01-11 19:08:15,360 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/userGroup]}" onto public com.m2m.web.Response<com.m2m.response.UserGroupResponse> com.m2m.controller.HomeController.userGroup(com.m2m.request.BaseRequest)
+2018-01-11 19:08:15,361 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/recTagGroup]}" onto public java.lang.Object com.m2m.controller.HomeController.recTagGroup(com.m2m.request.Home4RecTagGroupRequest)
+2018-01-11 19:08:15,361 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/getPricedKingdomList]}" onto public com.m2m.web.Response<com.m2m.response.PricedKingdomListResponse> com.m2m.controller.HomeController.getPricedKingdomList(com.m2m.request.PricedKingdomListRequest)
+2018-01-11 19:08:15,361 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/home/industryContentList]}" onto public com.m2m.web.Response<com.m2m.response.IndustryContentListResponse> com.m2m.controller.HomeController.industryContentList(com.m2m.request.IndustryContentListRequest)
+2018-01-11 19:08:15,365 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detail]}" onto public com.m2m.web.Response<com.m2m.response.DetailResponse> com.m2m.controller.LiveController.detail(com.m2m.request.DetailRequest)
+2018-01-11 19:08:15,365 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/speak]}" onto public com.m2m.web.Response<com.m2m.response.SpeakResponse> com.m2m.controller.LiveController.speak(com.m2m.request.SpeakRequest)
+2018-01-11 19:08:15,366 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/liveCover]}" onto public com.m2m.web.Response<com.m2m.response.LiveCoverResponse> com.m2m.controller.LiveController.liveCover(com.m2m.request.Live4LiveCoverRequest)
+2018-01-11 19:08:15,366 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageResponse> com.m2m.controller.LiveController.detailPage(com.m2m.request.DetailPageRequest)
+2018-01-11 19:08:15,367 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getMyTopic]}" onto public com.m2m.web.Response<com.m2m.response.MyTopicResponse> com.m2m.controller.LiveController.getMyTopic(com.m2m.request.MyTopicRequest)
+2018-01-11 19:08:15,367 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getUpdate]}" onto public com.m2m.web.Response<com.m2m.response.TopicUpdateResponse> com.m2m.controller.LiveController.getUpdate(com.m2m.request.TopicUpdateRequest)
+2018-01-11 19:08:15,368 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailFidPage]}" onto public com.m2m.web.Response<com.m2m.response.DetailFidPageResponse> com.m2m.controller.LiveController.detailFidPage(com.m2m.request.DetailFidPageRequest)
+2018-01-11 19:08:15,368 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/detailPageStatus]}" onto public com.m2m.web.Response<com.m2m.response.DetailPageStatusResponse> com.m2m.controller.LiveController.detailPageStatus(com.m2m.request.DetailPageStatusRequest)
+2018-01-11 19:08:15,369 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/createKingdom]}" onto public com.m2m.web.Response<com.m2m.response.CreateKingdomResponse> com.m2m.controller.LiveController.createKingdom(com.m2m.request.CreateKingdomRequest)
+2018-01-11 19:08:15,370 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/settingModify]}" onto public com.m2m.web.Response<com.m2m.response.SettingModifyResponse> com.m2m.controller.LiveController.settingModify(com.m2m.request.SettingModifyRequest)
+2018-01-11 19:08:15,371 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/getLiveByCid]}" onto public com.m2m.web.Response<com.m2m.response.GetLiveByCidResponse> com.m2m.controller.LiveController.getLiveByCid(com.m2m.request.GetLiveByCidRequest)
+2018-01-11 19:08:15,371 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/live/settings]}" onto public com.m2m.web.Response<com.m2m.response.SettingsResponse> com.m2m.controller.LiveController.settings(com.m2m.request.SettingsRequest)
+2018-01-11 19:08:15,373 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/friendQuery]}" onto public com.m2m.web.Response<com.m2m.response.FriendQueryResponse> com.m2m.controller.UserController.friendQuery(com.m2m.request.FriendQueryRequest)
+2018-01-11 19:08:15,374 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/emotionHisList]}" onto public com.m2m.web.Response<com.m2m.response.EmotionHisListResponse> com.m2m.controller.UserController.emotionHisList(com.m2m.request.EmotionHisListRequest)
+2018-01-11 19:08:15,374 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUserProfile]}" onto public com.m2m.web.Response<com.m2m.response.GetUserProfileResponse> com.m2m.controller.UserController.getUserProfile(com.m2m.request.GetUserProfileRequest)
+2018-01-11 19:08:15,375 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.m2m.web.Response<com.m2m.response.GetUserResponse> com.m2m.controller.UserController.getUser(com.m2m.request.GetUserRequest)
+2018-01-11 19:08:15,375 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/contactsQuery]}" onto public com.m2m.web.Response<com.m2m.response.ContactsQueryResponse> com.m2m.controller.UserController.contactsQuery(com.m2m.request.ContactsQueryRequest)
+2018-01-11 19:08:15,378 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 19:08:15,378 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 19:08:15,413 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 19:08:15,413 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 19:08:15,450 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 19:08:15,896 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-01-11 19:08:15,912 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-01-11 19:08:15,925 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-01-11 19:08:15,939 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-01-11 19:08:15,962 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-01-11 19:08:15,967 INFO [main] c.m.Application [StartupInfoLogger.java:57] Started Application in 6.114 seconds (JVM running for 6.539)
+2018-01-11 19:08:28,897 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 19:08:28,898 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 19:08:28,925 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-01-11 19:08:29,137 INFO [http-nio-9090-exec-1] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/userGroup]-[{"uid":"298","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [158ms]
+2018-01-11 19:08:33,322 INFO [http-nio-9090-exec-2] c.m.i.UserSecurityInterceptor [UserSecurityInterceptor.java:100] [298]-[/home/industryContentList]-[{"uid":"298","industryId":"3","page":"1","token":"5c4b4f4da10b4e9293cfbd679d99d6a3"}], EXECUTE TIME : [173ms]

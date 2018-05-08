@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/activiti?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: test
+    initialSize: 5
+    minIdle: 5
+    maxActive: 200
+  jpa:
+    hibernate:
+      ddl-auto:  update
+    database: MYSQL
+server:
+  port: 9090

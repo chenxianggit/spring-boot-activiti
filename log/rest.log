@@ -1,0 +1,375 @@
+2018-04-25 15:22:29,930 INFO [restartedMain] c.c.Application [StartupInfoLogger.java:48] Starting Application on DEV-PC013 with PID 13468 (D:\soft\eclipse\workspace\spring-boot\target\classes started by chenxiang in D:\soft\eclipse\workspace\spring-boot)
+2018-04-25 15:22:29,937 INFO [restartedMain] c.c.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-04-25 15:22:30,257 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-04-25 15:22:30,281 INFO [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@160fdda2: startup date [Wed Apr 25 15:22:30 CST 2018]; root of context hierarchy
+2018-04-25 15:22:30,868 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-25 15:22:31,470 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] Bean 'application' of type [com.cx.Application$$EnhancerBySpringCGLIB$$530b59a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-25 15:22:31,598 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$9ba3b9fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-25 15:22:32,032 INFO [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-04-25 15:22:32,043 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-04-25 15:22:32,044 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-25 15:22:32,124 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-04-25 15:22:32,124 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 1843 ms
+2018-04-25 15:22:32,258 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-25 15:22:32,262 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-25 15:22:32,262 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-25 15:22:32,263 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-25 15:22:32,263 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-25 15:22:32,263 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-04-25 15:22:33,228 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@160fdda2: startup date [Wed Apr 25 15:22:30 CST 2018]; root of context hierarchy
+2018-04-25 15:22:33,281 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/eventBus/send],methods=[GET]}" onto public java.lang.String com.cx.controller.EventBusController.send(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 15:22:33,282 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/kafka/test],methods=[GET]}" onto public java.lang.String com.cx.controller.KafkaController.test(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 15:22:33,283 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/kafka/send],methods=[GET]}" onto public java.lang.String com.cx.controller.KafkaController.sendKafka(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 15:22:33,284 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.cx.web.Response<com.cx.response.UserResponse> com.cx.controller.UserController.getUser(com.cx.request.GetUserRequest)
+2018-04-25 15:22:33,286 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-25 15:22:33,287 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 15:22:33,315 INFO [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 15:22:33,316 INFO [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 15:22:33,351 INFO [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 15:22:33,582 INFO [restartedMain] o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping [WebMvcAutoConfiguration.java:549] Adding welcome page: class path resource [static/index.html]
+2018-04-25 15:22:34,078 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2018-04-25 15:22:34,128 INFO [restartedMain] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-04-25 15:22:34,149 INFO [restartedMain] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:343] Starting beans in phase 0
+2018-04-25 15:22:34,166 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:178] ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 100
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = test
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2018-04-25 15:22:34,213 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:178] ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-1
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 100
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = test
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2018-04-25 15:22:34,236 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:83] Kafka version : 0.10.0.1
+2018-04-25 15:22:34,236 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:84] Kafka commitId : a7a17cdec9eaa6c5
+2018-04-25 15:22:34,255 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-04-25 15:22:34,271 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-04-25 15:22:34,272 INFO [restartedMain] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:179] Using a shared selector for servlet write/read
+2018-04-25 15:22:34,289 INFO [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:201] Tomcat started on port(s): 9090 (http)
+2018-04-25 15:22:34,293 INFO [restartedMain] c.c.Application [StartupInfoLogger.java:57] Started Application in 4.831 seconds (JVM running for 5.243)
+2018-04-25 15:31:31,720 INFO [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-25 15:31:31,720 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-25 15:31:31,752 INFO [http-nio-9090-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-04-25 15:31:32,126 WARN [http-nio-9090-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:189] Resolved exception caused by Handler execution: java.lang.NullPointerException
+2018-04-25 16:32:13,823 INFO [restartedMain] c.c.Application [StartupInfoLogger.java:48] Starting Application on DEV-PC013 with PID 15628 (D:\soft\eclipse\workspace\spring-boot\target\classes started by chenxiang in D:\soft\eclipse\workspace\spring-boot)
+2018-04-25 16:32:13,824 INFO [restartedMain] c.c.Application [SpringApplication.java:593] No active profile set, falling back to default profiles: default
+2018-04-25 16:32:14,078 INFO [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:583] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@332d6f8: startup date [Wed Apr 25 16:32:14 CST 2018]; root of context hierarchy
+2018-04-25 16:32:14,125 INFO [background-preinit] o.h.v.i.u.Version [Version.java:30] HV000001: Hibernate Validator 5.3.6.Final
+2018-04-25 16:32:14,703 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-25 16:32:15,023 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] Bean 'application' of type [com.cx.Application$$EnhancerBySpringCGLIB$$f4c5ab04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-25 16:32:15,111 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:327] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$3d5e0b5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-25 16:32:15,541 INFO [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:89] Tomcat initialized with port(s): 9090 (http)
+2018-04-25 16:32:15,552 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:179] Starting service [Tomcat]
+2018-04-25 16:32:15,553 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:179] Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-25 16:32:15,634 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:179] Initializing Spring embedded WebApplicationContext
+2018-04-25 16:32:15,634 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:276] Root WebApplicationContext: initialization completed in 1556 ms
+2018-04-25 16:32:15,771 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java:190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-25 16:32:15,774 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-25 16:32:15,775 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-25 16:32:15,775 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-25 16:32:15,776 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-25 16:32:15,776 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'corsFilter' to: [/*]
+2018-04-25 16:32:16,741 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@332d6f8: startup date [Wed Apr 25 16:32:14 CST 2018]; root of context hierarchy
+2018-04-25 16:32:16,799 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/eventBus/send],methods=[GET]}" onto public java.lang.String com.cx.controller.EventBusController.send(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 16:32:16,800 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/kafka/test],methods=[GET]}" onto public java.lang.String com.cx.controller.KafkaController.test(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 16:32:16,800 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/kafka/send],methods=[GET]}" onto public java.lang.String com.cx.controller.KafkaController.sendKafka(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 16:32:16,801 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/user/getUser]}" onto public com.cx.web.Response<com.cx.response.UserResponse> com.cx.controller.UserController.getUser(com.cx.request.GetUserRequest)
+2018-04-25 16:32:16,802 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-25 16:32:16,803 INFO [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 16:32:16,829 INFO [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 16:32:16,830 INFO [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 16:32:16,864 INFO [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 16:32:17,180 INFO [restartedMain] o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping [WebMvcAutoConfiguration.java:549] Adding welcome page: class path resource [static/index.html]
+2018-04-25 16:32:17,447 WARN [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:62] Unable to start LiveReload server
+2018-04-25 16:32:17,492 INFO [restartedMain] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2018-04-25 16:32:17,545 INFO [restartedMain] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:343] Starting beans in phase 0
+2018-04-25 16:32:17,562 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:178] ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 100
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = test
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2018-04-25 16:32:17,595 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:178] ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-1
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 100
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = test
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2018-04-25 16:32:17,619 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:83] Kafka version : 0.10.0.1
+2018-04-25 16:32:17,619 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:84] Kafka commitId : a7a17cdec9eaa6c5
+2018-04-25 16:32:17,633 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Initializing ProtocolHandler ["http-nio-9090"]
+2018-04-25 16:32:17,644 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Starting ProtocolHandler ["http-nio-9090"]
+2018-04-25 16:32:17,646 ERROR [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:181] Failed to start end point associated with ProtocolHandler ["http-nio-9090"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.cx.Application.main(Application.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-04-25 16:32:17,647 ERROR [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:181] Failed to start connector [Connector[HTTP/1.1-9090]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9090]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.cx.Application.main(Application.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 19 common frames omitted
+2018-04-25 16:32:17,653 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Pausing ProtocolHandler ["http-nio-9090"]
+2018-04-25 16:32:17,654 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:179] Stopping service [Tomcat]
+2018-04-25 16:32:17,663 INFO [restartedMain] o.a.c.u.LifecycleBase [DirectJDKLog.java:179] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-04-25 16:32:17,663 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Stopping ProtocolHandler ["http-nio-9090"]
+2018-04-25 16:32:17,663 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:179] Destroying ProtocolHandler ["http-nio-9090"]
+2018-04-25 16:32:17,666 INFO [restartedMain] o.s.b.a.l.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java:101] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-04-25 16:32:17,669 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java:42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9090, or configure this application to listen on another port.
+
+2018-04-25 16:32:17,670 INFO [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:984] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@332d6f8: startup date [Wed Apr 25 16:32:14 CST 2018]; root of context hierarchy
+2018-04-25 16:32:17,672 INFO [restartedMain] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:358] Stopping beans in phase 0
+2018-04-25 16:32:17,676 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-kafka-consumer-1] o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer [KafkaMessageListenerContainer.java:596] Consumer stopped
+2018-04-25 16:32:17,678 INFO [restartedMain] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:449] Unregistering JMX-exposed beans on shutdown
