@@ -2,7 +2,9 @@ package com.cx.controller;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
+import org.activiti.engine.TaskService;
 import org.activiti.engine.task.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,6 +20,9 @@ public class MyRestController {
 	@Autowired
 	private ActivitiService myService;
 	
+	@Autowired
+	private TaskService taskService;
+	
 	//开启流程实例
 	@RequestMapping(value = "/process/{personId}/{compId}", method = RequestMethod.GET)
 	public void startProcessInstance(@PathVariable Long personId, @PathVariable Long compId) {
@@ -30,10 +35,30 @@ public class MyRestController {
 		List<Task> tasks = myService.getTasks(assignee);
 		List<TaskRepresentation> dtos = new ArrayList<TaskRepresentation>();
 		for (Task task : tasks) {
-			dtos.add(new TaskRepresentation(task.getId(), task.getName()));
+			dtos.add(new TaskRepresentation(task.getId(), task.getName(),task.getProcessVariables()));
 		}
 		return dtos;
 	}
+	
+	//获取当前人的任务
+	@RequestMapping(value = "/taskById", method = RequestMethod.GET)
+	public String getTaskById(@RequestParam String taskId) {
+		Task task =  taskService.createTaskQuery().taskId(taskId).singleResult();
+		Map<String,Object> vars = taskService.getVariables(taskId);
+        for (String variableName : vars.keySet()) {
+            String val = (String) vars.get(variableName);
+            System.out.println(variableName + " = " +val);
+        }
+		return "333";
+	}
+	
+	//开启流程实例
+	@RequestMapping(value = "/setVariable/{taskId}", method = RequestMethod.GET)
+	public String setVariable(@PathVariable String taskId) {
+		myService.setVariable(taskId);
+		return "ok";
+	}
+	
 	
 	//完成任务
 	@RequestMapping(value = "/complete/{taskId}/{status}", method = RequestMethod.GET)
@@ -48,10 +73,20 @@ public class MyRestController {
 	{
 		private String id;
 		private String name;
+		private Map map;
 		
-		public TaskRepresentation(String id, String name) {
+		public Map getMap() {
+			return map;
+		}
+
+		public void setMap(Map map) {
+			this.map = map;
+		}
+
+		public TaskRepresentation(String id, String name,Map map) {
 			this.id = id;
 			this.name = name;
+			this.map = map;
 		}
 		
 		public String getId() {
