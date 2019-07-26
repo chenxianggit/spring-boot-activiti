@@ -15,7 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cx.service.ActivitiService;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
+@Api(value = "MyRestController ")
 @RestController
+@RequestMapping(value = "/test", produces = {"application/json;charset=UTF-8"})
 public class MyRestController {
 	@Autowired
 	private ActivitiService myService;
@@ -23,10 +28,18 @@ public class MyRestController {
 	@Autowired
 	private TaskService taskService;
 	
-	//开启流程实例
-	@RequestMapping(value = "/process/{personId}/{compId}", method = RequestMethod.GET)
-	public void startProcessInstance(@PathVariable Long personId, @PathVariable Long compId) {
-		myService.startProcess(personId, compId);
+	@ApiOperation(value = "开启流程实例")
+	@RequestMapping(value = "/process/{key}", method = RequestMethod.GET)
+	public void startProcessInstance(@PathVariable String key) {
+		myService.startProcess(key);
+	}
+	
+	@ApiOperation(value = "获取流程信息")
+	@RequestMapping(value = "/getCurTask/{key}", method = RequestMethod.GET)
+	public List<Task> getCurTask(@PathVariable String key) {
+		List<Task> list = taskService.createTaskQuery().processInstanceBusinessKey(key).list();
+		System.out.println("办理人"+list.get(0).getAssignee());
+		return list;
 	}
 	
 	//获取当前人的任务

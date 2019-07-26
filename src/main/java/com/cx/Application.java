@@ -10,6 +10,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.validation.beanvalidation.MethodValidationPostProcessor;
 import org.springframework.web.cors.CorsConfiguration;
@@ -27,6 +28,7 @@ import com.cx.service.ActivitiService;
 @ComponentScan("com.cx")
 @EnableJpaRepositories("com.cx.dao")
 @EntityScan("com.cx.entity")
+@WebAppConfiguration
 public class Application extends SpringBootServletInitializer {
 	
 	@Autowired

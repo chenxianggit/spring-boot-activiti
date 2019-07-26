@@ -23,12 +23,12 @@ public class ActivitiService {
 	private TaskService taskService;
 	
 	//开始流程，传入申请者的id以及公司的id
-	public void startProcess(Long personId, Long compId) {
+	public void startProcess(String key) {
 		Map<String, Object> variables = new HashMap<String, Object>();
 		variables.put("personId", "test1");
 		variables.put("compId", "test2");
 		variables.put("assignee", "张三");  
-		ProcessInstance processInstance = runtimeService.startProcessInstanceByKey("demo2", variables);
+		ProcessInstance processInstance = runtimeService.startProcessInstanceByKey("demo20",key, variables);
 		System.out.println("流程变量：" + processInstance.getProcessVariables()); 
 	}
 	
